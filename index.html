@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ============ SEO ============ -->
+<title>Diksha Sharma — Business &amp; Marketing Analyst | SQL, Excel, Campaign Strategy</title>
+<meta name="description" content="Diksha Sharma — BMS 2026, Shaheed Sukhdev College of Business Studies (University of Delhi). Business analyst and campaign strategist working in SQL, Excel and go-to-market strategy. Based in Delhi NCR.">
+<meta name="author" content="Diksha Sharma">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dkshasharma.github.io/">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Diksha Sharma — Business &amp; Marketing Analyst">
+<meta property="og:description" content="SQL, Excel and campaign strategy. BMS 2026, SSCBS (University of Delhi). Delhi NCR.">
+<meta property="og:image" content="assets/img/mars/slide-01.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Favicon: monogram, inline so there is no extra request -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231E3AE0'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' font-weight='700' fill='white' text-anchor='middle'%3EDS%3C/text%3E%3C/svg%3E">
+
+<!-- ============ FONTS ============ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Theme applied before paint so the page never flashes the wrong mode -->
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('ds-theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+    } catch (e) { /* storage blocked — stay on light */ }
+  })();
+</script>
+
+<!-- Structured data for search engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Diksha Sharma",
+  "jobTitle": "Business & Marketing Analyst",
+  "email": "mailto:dikshalwar@gmail.com",
+  "telephone": "+91-9772713937",
+  "url": "https://github.com/dkshaSharma",
+  "sameAs": [
+    "https://github.com/dkshaSharma",
+    "https://www.linkedin.com/in/diksha-sharma-5b4116289/"
+  ],
+  "address": { "@type": "PostalAddress", "addressRegion": "Delhi NCR", "addressCountry": "IN" },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Shaheed Sukhdev College of Business Studies, University of Delhi"
+  },
+  "knowsAbout": ["SQL", "MySQL", "Microsoft Excel", "Python", "Data Analysis", "Campaign Strategy", "Customer Segmentation"]
+}
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a class="brand" href="#home" aria-label="Diksha Sharma — home">
+      <span class="brand__mark" aria-hidden="true">DS</span>
+      <span class="brand__text">Diksha Sharma</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Main">
+      <a href="#home" class="nav__link">Home</a>
+      <a href="#about" class="nav__link">About</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#projects" class="nav__link">Projects</a>
+      <a href="#experience" class="nav__link">Experience</a>
+      <a href="#education" class="nav__link">Education</a>
+      <a href="#certifications" class="nav__link">Certifications</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>
+        <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.2 8.2 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/></svg>
+      </button>
+
+      <button class="icon-btn nav__burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="burger__bar"></span>
+        <span class="burger__bar"></span>
+        <span class="burger__bar"></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav__progress" id="scrollProgress" aria-hidden="true"></div>
+</header>
+
+<div class="nav__scrim" id="navScrim" hidden></div>
+
+<main id="main">
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" id="home">
+  <div class="container hero__grid">
+
+    <div class="hero__copy">
+      <p class="eyebrow reveal">Delhi NCR · Open to full-time &amp; internship roles · 2026</p>
+      <h1 class="hero__name reveal">Diksha<br>Sharma</h1>
+      <p class="hero__tagline reveal">Business analyst &amp; campaign strategist — SQL, Excel, and go-to-market thinking.</p>
+      <p class="hero__intro reveal">
+        Final-year BMS student at Shaheed Sukhdev College of Business Studies, University of Delhi.
+        I build the query, read the numbers, and write the recommendation that follows from them —
+        across operations KPIs, revenue dashboards, and consumer campaigns.
+      </p>
+      <div class="hero__cta reveal">
+        <a class="btn btn--solid" href="#projects">View projects</a>
+        <a class="btn btn--ghost" href="assets/docs/Diksha-Sharma-Resume.pdf" download>Download résumé</a>
+      </div>
+    </div>
+
+    <div class="hero__portrait reveal">
+      <figure class="portrait" id="portrait">
+        <img src="assets/img/profile.jpeg" alt="Portrait of Diksha Sharma" width="480" height="600"
+             onerror="this.closest('.portrait').classList.add('is-missing'); this.remove();">
+        <span class="portrait__fallback" aria-hidden="true">DS</span>
+        <figcaption class="portrait__tag">SSCBS · BMS ’26</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- KPI strip: every figure here is taken from the résumé, nothing invented -->
+  <div class="container">
+    <ul class="kpis reveal">
+      <li class="kpi"><span class="kpi__num">8.18</span><span class="kpi__label">GPA / 10 · BMS</span></li>
+      <li class="kpi"><span class="kpi__num">500+</span><span class="kpi__label">Transactions analysed</span></li>
+      <li class="kpi"><span class="kpi__num">4</span><span class="kpi__label">Customer personas built</span></li>
+      <li class="kpi"><span class="kpi__num">14K+</span><span class="kpi__label">Instagram reach grown</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section class="section" id="about">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow">About</p>
+      <h2 class="sec-title">I like the part where the data has to become a decision.</h2>
+    </header>
+
+    <div class="about">
+      <div class="about__body reveal">
+        <p>
+         I'm from Alwar, Rajasthan, and I graduated from Shaheed Sukhdev College of Business Studies, 
+         University of Delhi in 2026, with a Bachelor of Management Studies.
+          
+        </p>
+        <p>
+          My work sits between analysis and strategy. On the analysis side: a relational MySQL database 
+          measuring fulfilment, SLA compliance and cancellations, and an automated Excel dashboard over 
+          500+ e-commerce transactions that traced where revenue was leaking. On the strategy side: a 
+          four-persona customer segmentation at Crack Fillers, and full go-to-market campaigns for MARS 
+          Cosmetics and Haldiram's, built independently.
+        </p>
+        <p>
+          Outside coursework, I've run a college society as President, coordinated health and awareness 
+          programmes with hospitals and Delhi Police, and grown a student organisation's Instagram reach 
+          past 14,000.
+        </p>
+      </div>
+
+      <dl class="about__facts reveal">
+        <div class="fact"><dt>Based in</dt><dd>Delhi NCR — open to Pan India</dd></div>
+        <div class="fact"><dt>Graduated</dt><dd>2026 · BMS, SSCBS (DU)</dd></div>
+        <div class="fact"><dt>Looking for</dt><dd>Consulting, founder's office, business analyst, business operations, growth &amp; market research</dd></div>
+        <div class="fact"><dt>Works in</dt><dd>SQL · Excel · PowerPoint · Canva</dd></div>
+        <div class="fact"><dt>Languages of work</dt><dd>English, Hindi</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SKILLS
+     ============================================================ -->
+<section class="section section--alt" id="skills">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Skills</p>
+      <h2 class="sec-title">What I actually work in</h2>
+    </header>
+
+    <div class="skills">
+      <article class="skill-card reveal">
+        <h3 class="skill-card__title">Data &amp; analysis</h3>
+        <ul class="tags">
+          <li class="tag tag--key">SQL</li><li class="tag tag--key">MySQL</li>
+          <li class="tag tag--key">MS Excel</li><!--<li class="tag">Python</li>-->
+          <li class="tag">KPI definition</li><li class="tag">Data analysis</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3 class="skill-card__title">Excel</h3>
+        <ul class="tags">
+          <li class="tag">Pivot Tables</li><li class="tag">XLOOKUP</li>
+          <li class="tag">INDEX-MATCH</li><li class="tag">Dashboarding</li>
+          <li class="tag">Automated reporting</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3 class="skill-card__title">Database</h3>
+        <ul class="tags">
+          <li class="tag">Relational design</li><li class="tag">SQL queries</li>
+          <li class="tag">CTEs</li><li class="tag">Window functions</li>
+          <li class="tag">Rolling averages</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3 class="skill-card__title">Marketing &amp; strategy</h3>
+        <ul class="tags">
+          <li class="tag tag--key">Campaign strategy</li><li class="tag">Content strategy</li>
+          <li class="tag">Audience segmentation</li><li class="tag">Positioning</li>
+          <li class="tag">Competitor &amp; trend research</li><li class="tag">Content calendars</li>
+          <li class="tag">Hashtag / reach strategy</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3 class="skill-card__title">Platforms &amp; tools</h3>
+        <ul class="tags">
+          <li class="tag">Google Analytics (GA4)</li><li class="tag">Meta Ads Manager</li>
+          <li class="tag">Meta Business Suite</li><li class="tag">Google Ads</li>
+          <li class="tag">SEO fundamentals</li><li class="tag">Canva</li><li class="tag">A/B Testing</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3 class="skill-card__title">Communication</h3>
+        <ul class="tags">
+          <li class="tag">MS PowerPoint</li><li class="tag">MS Word</li>
+          <li class="tag">Stakeholder recommendations</li><li class="tag">Report writing</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROJECTS
+     ============================================================ -->
+<section class="section" id="projects">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Projects</p>
+      <h2 class="sec-title">Five pieces of work, start to finish</h2>
+    </header>
+
+    <div class="filters reveal" role="group" aria-label="Filter projects by category">
+      <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All <span class="filter__n">5</span></button>
+      <button class="filter" type="button" data-filter="data" aria-pressed="false">Data &amp; analytics <span class="filter__n">2</span></button>
+      <button class="filter" type="button" data-filter="marketing" aria-pressed="false">Marketing &amp; strategy <span class="filter__n">2</span></button>
+      <button class="filter" type="button" data-filter="product" aria-pressed="false">Product <span class="filter__n">1</span></button>
+    </div>
+
+    <div class="projects" id="projectGrid">
+
+      <!-- 1 — SQL -->
+      <article class="project reveal" data-category="data">
+        <div class="project__thumb project__thumb--code" aria-hidden="true">
+          <pre><code>SELECT dispatch_hour,
+       AVG(fulfilled) OVER w AS sla_roll,
+       RANK() OVER (ORDER BY cancels DESC)
+FROM   orders
+WINDOW w AS (ORDER BY dispatch_hour
+             ROWS 6 PRECEDING);</code></pre>
+        </div>
+        <div class="project__body">
+          <p class="project__meta">SQL · MySQL — Spring 2026</p>
+          <h3 class="project__title">Operations Performance &amp; KPI Analysis</h3>
+          <p class="project__desc">
+            Built a relational MySQL database over an orders dataset and wrote the queries behind
+            fulfilment rate, SLA compliance, cancellation rate and average order value. Used CTEs,
+            window functions (RANK, LAG) and rolling averages to surface demand trends, peak-hour
+            patterns and operational gaps — then turned those trends into service-performance findings.
+          </p>
+          <ul class="tags tags--sm">
+            <li class="tag">MySQL</li><li class="tag">CTEs</li><li class="tag">Window functions</li><li class="tag">KPI design</li>
+          </ul>
+          <div class="project__links">
+            <a class="link-btn" href="https://github.com/dkshaSharma/OperationsPerformanceMetrics.git" target="_blank" rel="noopener">
+              GitHub repository <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2 — Excel -->
+      <article class="project reveal" data-category="data">
+        <div class="project__thumb project__thumb--sheet" aria-hidden="true">
+          <div class="sheet">
+            <div class="sheet__row sheet__row--head"><span>Month</span><span>Category</span><span>Revenue</span><span>Δ</span></div>
+            <div class="sheet__row"><span>Jan</span><span>Apparel</span><span>₹4.2L</span><span class="up">+8%</span></div>
+            <div class="sheet__row"><span>Feb</span><span>Apparel</span><span>₹3.6L</span><span class="down">−14%</span></div>
+            <div class="sheet__row"><span>Mar</span><span>Home</span><span>₹5.1L</span><span class="up">+19%</span></div>
+            <div class="sheet__row"><span>Apr</span><span>Home</span><span>₹4.8L</span><span class="down">−6%</span></div>
+          </div>
+          <div class="sheet__bars"><i style="--h:52%"></i><i style="--h:38%"></i><i style="--h:74%"></i><i style="--h:61%"></i><i style="--h:88%"></i><i style="--h:45%"></i></div>
+        </div>
+        <div class="project__body">
+          <p class="project__meta">MS Excel — Spring 2026</p>
+          <h3 class="project__title">Sales Performance &amp; Revenue Optimization Dashboard</h3>
+          <p class="project__desc">
+            Analysed 500+ e-commerce transactions to trace revenue across months, categories and products.
+            Built an interactive dashboard on Pivot Tables, XLOOKUP and INDEX-MATCH, identified the seasonal
+            patterns and category-level drivers behind a revenue decline, and shipped it fully automated —
+            no hardcoded cells, so the report refreshes on new data.
+          </p>
+          <ul class="tags tags--sm">
+            <li class="tag">Pivot Tables</li><li class="tag">XLOOKUP</li><li class="tag">INDEX-MATCH</li><li class="tag">Dashboarding</li>
+          </ul>
+          <div class="project__links">
+            <a class="link-btn" href="https://github.com/dkshaSharma/SalesPerformance-and-RevenueOptimization-.git" target="_blank" rel="noopener">
+              GitHub repository <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3 — MARS -->
+      <article class="project reveal" data-category="marketing">
+        <button class="project__thumb project__thumb--img" type="button"
+                data-gallery="mars" aria-label="Open the MARS Cosmetics deck, 12 images">
+          <img src="assets/img/mars/slide-01.jpg" alt="Opening slide of the MARS Cosmetics College Starter Kit campaign deck" loading="lazy" width="1200" height="692">
+          <span class="project__thumb-cta">View deck · 12 pages</span>
+        </button>
+        <div class="project__body">
+          <p class="project__meta">Campaign strategy — 2026 · Independent</p>
+          <h3 class="project__title">MARS Cosmetics — “College Starter Kit”</h3>
+          <p class="project__desc">
+            A full go-to-market campaign for the Gen-Z college segment (17–23). Framed the barrier as three
+            things — budget, decision fatigue, purchase hassle — and answered it with a bundled 5-in-1 kit
+            and the line “Stop buying makeup like it's homework.” Structured a four-phase rollout
+            (teaser → drop → campus tour → UGC contest) across social, campus pop-ups and micro-influencers,
+            and priced the bundle at ~35% savings versus à la carte to carry the AOV argument.
+          </p>
+          <ul class="tags tags--sm">
+            <li class="tag">Positioning</li><li class="tag">Bundling strategy</li><li class="tag">Channel planning</li><li class="tag">Gen-Z research</li>
+          </ul>
+          <div class="project__links">
+            <button class="link-btn" type="button" data-gallery="mars">Open gallery <span aria-hidden="true">↗</span></button>
+            <a class="link-btn link-btn--quiet" href="assets/docs/MARS-College-Starter-Kit-Deck.pdf" download>Download deck (PDF)</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4 — Haldiram's -->
+      <article class="project reveal" data-category="marketing">
+        <button class="project__thumb project__thumb--img" type="button"
+                data-gallery="haldiram" aria-label="Open the Haldiram's Thanda Funda working notes, 5 pages">
+          <img src="assets/img/haldiram/page-01.jpg" alt="Handwritten campaign notes for the Haldiram's Thanda Funda concept" loading="lazy" width="1000" height="1424">
+          <span class="project__thumb-cta">View notes · 5 pages</span>
+        </button>
+        <div class="project__body">
+          <p class="project__meta">Creative strategy — 2026 · Assignment</p>
+          <h3 class="project__title">Haldiram's — “Thanda Funda”</h3>
+          <p class="project__desc">
+            Concept and naming for a beverage line aimed at exam-stressed students aged 15–25, built on the
+            insight that the only real break in a study day is the walk to the water cooler. Designed the
+            activation mechanics — bottle-code quizzes, campus leaderboards, Smart Sip booths and an
+            Instagram #SmartSipChallenge — then stress-tested the concepts against a memorability rubric
+            (emotional insight, minimal dialogue, visual storytelling, clear payoff).
+          </p>
+          <ul class="tags tags--sm">
+            <li class="tag">Concept development</li><li class="tag">Consumer insight</li><li class="tag">Activation design</li><li class="tag">UGC mechanics</li>
+          </ul>
+          <div class="project__links">
+            <button class="link-btn" type="button" data-gallery="haldiram">Open working notes <span aria-hidden="true">↗</span></button>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5 — Product analysis
+      <article class="project reveal" data-category="product">
+        <div class="project__thumb project__thumb--quote" aria-hidden="true">
+          <p>“Does the feature set actually answer what a 25–40 year old needs from a money app?”</p>
+        </div>
+        <div class="project__body">
+          <p class="project__meta">Product analysis — Principles of Management</p>
+          <h3 class="project__title">Personal Finance Pro — product teardown</h3>
+          <p class="project__desc">
+            Analysed the target market and user needs for a personal finance application aimed at
+            individuals aged 25–40, tested the stated value proposition and feature set against the
+            financial-management needs actually identified, and flagged where positioning and onboarding
+            were leaving adoption on the table.
+          </p>
+          <ul class="tags tags--sm">
+            <li class="tag">Market analysis</li><li class="tag">User needs</li><li class="tag">Value proposition</li><li class="tag">Positioning</li>
+          </ul>
+        </div>
+      </article> -->
+
+    </div>
+
+    <p class="projects__empty" id="projectsEmpty" hidden>No projects in this category.</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     EXPERIENCE
+     ============================================================ -->
+<section class="section section--alt" id="experience">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Experience</p>
+      <h2 class="sec-title">Internships &amp; positions of responsibility</h2>
+    </header>
+
+    <ol class="timeline">
+
+      <li class="tl-item reveal">
+        <div class="tl-item__when">Jun – Jul 2025</div>
+        <div class="tl-item__body">
+          <h3 class="tl-item__role">Social Media Marketing Intern</h3>
+          <p class="tl-item__org">VS-Kart · Delhi, India</p>
+          <ul class="bullets">
+            <li>Developed and executed meme marketing campaigns across Instagram and LinkedIn to increase brand relatability, lifting engagement and organic reach.</li>
+            <li>Researched and curated short-form content strategies (Reels, YouTube Shorts) aligned to trending formats, improving audience retention and shareability.</li>
+            <li>Applied reach segmentation across hashtags — high, medium, low — to make discoverability a data-informed decision rather than a guess.</li>
+            <li>Built content calendars and worked with the creative team to keep brand messaging consistent across campaigns.</li>
+            <li>Ran competitor analysis to find content gaps and points of differentiation in sustainability-focused marketing.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-item__when">May – Jul 2024</div>
+        <div class="tl-item__body">
+          <h3 class="tl-item__role">Strategy &amp; Marketing Intern</h3>
+          <p class="tl-item__org">Crack Fillers · Delhi, India</p>
+          <ul class="bullets">
+            <li>Segmented the customer base into four distinct personas using business goals, technology adoption, risk appetite, lifestyle and decision-making authority.</li>
+            <li>Analysed channel adoption across website, phone and social media to find where website adoption was being lost.</li>
+            <li>Translated the segmentation and channel findings into recommendations taken into strategy discussions with the marketing team.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-item__when">Jul 2024 – June 2026</div>
+        <div class="tl-item__body">
+          <h3 class="tl-item__role">President, Electoral Literacy Club</h3>
+          <p class="tl-item__org">SSCBS, University of Delhi</p>
+          <ul class="bullets">
+            <li>Led the council through National Voters Day, Constitution Day, Democracy Day and Human Rights Day — coordinating 30+ members and 100+ participants.</li>
+            <li>Ran an EVM usage awareness session educating 50 individuals on voting practice.</li>
+            <li>Directed a street play on voter awareness with Verve, reaching 100+ participants.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-item__when">Aug 2023 – June 2026</div>
+        <div class="tl-item__body">
+          <h3 class="tl-item__role">Advisory Committee, Girl Up Ruhi</h3>
+          <p class="tl-item__org">SSCBS, University of Delhi</p>
+          <ul class="bullets">
+            <li>Collaborated with Delhi Police on a self-defence workshop equipping 80+ girls with safety techniques.</li>
+            <li>Organised an interactive period-pain simulator engaging 200+ students, and a cervical cancer awareness session for 100+ participants with a Senior Consultant from Fortis Hospital.</li>
+            <li>Ran a CUET guidance session for 100+ students at a local boys' school.</li>
+            <li>Grew the organisation's Instagram reach past 14,000.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-item__when">Aug 2023 – June 2026</div>
+        <div class="tl-item__body">
+          <h3 class="tl-item__role">Volunteer, National Service Scheme</h3>
+          <p class="tl-item__org">SSCBS, University of Delhi</p>
+          <ul class="bullets">
+            <li>Coordinated a blood donation drive with Chandra Laxmi Hospital enabling 100+ successful donations.</li>
+            <li>Organised a health camp with House of Clove and Apollo Hospital serving 300+ participants.</li>
+            <li>Ran educational sessions with CDF IAS, Alchemist, Drishti IAS, SSED and CPR Medulance, each engaging 100+ participants.</li>
+            <li>Collected and distributed 300+ kg of food for underprivileged communities.</li>
+          </ul>
+        </div>
+      </li>
+
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================================
+     EDUCATION
+     ============================================================ -->
+<section class="section" id="education">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Education</p>
+      <h2 class="sec-title">Academic record</h2>
+    </header>
+
+    <div class="table-wrap reveal">
+      <table class="table">
+        <caption class="visually-hidden">Academic qualifications, institutions, year of passing and result</caption>
+        <thead>
+          <tr><th scope="col">Course</th><th scope="col">Institution</th><th scope="col">Year</th><th scope="col">Result</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Bachelor of Management Studies</th>
+            <td>Shaheed Sukhdev College of Business Studies, University of Delhi</td>
+            <td>2023 – 2026</td>
+            <td class="num">8.18 GPA</td>
+          </tr>
+          <tr>
+            <th scope="row">AISSCE (Commerce)</th>
+            <td>V.L.M Public School, Alwar, Rajasthan</td>
+            <td>2023</td>
+            <td class="num">80.18% </td>
+          </tr>
+          <tr>
+            <th scope="row">AISSE</th>
+            <td>V.L.M Public School, Alwar, Rajasthan</td>
+            <td>2021</td>
+            <td class="num">92.2% </td>
+          </tr>
+          <tr>
+            <th scope="row">Kathak — classical dance</th>
+            <td>Akhil Bharatiya Gandharva Mahavidyalaya Mandal, Mumbai</td>
+            <td>2015 – 2018</td>
+            <td class="num">Pratham</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CERTIFICATIONS & ACHIEVEMENTS
+     ============================================================ -->
+<section class="section section--alt" id="certifications">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Certifications &amp; achievements</p>
+      <h2 class="sec-title">Credentials and recognition</h2>
+    </header>
+
+    <div class="cards">
+      <article class="card card--cert reveal">
+        <p class="card__kicker">Certification</p>
+        <h3 class="card__title">Marketing Essentials</h3>
+        <p class="card__org">Harvard University</p>
+        <a class="link-btn" href="https://drive.google.com/file/d/18gAskN8PxNhW0HqYNCHHPCJZdjMYeL9e/view?usp=sharing" target="_blank" rel="noopener">
+          View certificate <span aria-hidden="true">↗</span>
+        </a>
+      </article>
+
+      <article class="card reveal">
+        <p class="card__kicker">Achievement · 2019</p>
+        <h3 class="card__title">Rank 2 — Yoga &amp; Lok Nritya</h3>
+        <p class="card__org">Matsya Utsav</p>
+      </article>
+
+      <article class="card reveal">
+        <p class="card__kicker">Achievement · 2019</p>
+        <h3 class="card__title">Rank 3 — District Yoga</h3>
+        <p class="card__org">Power Yoga</p>
+      </article>
+
+      <article class="card reveal">
+        <p class="card__kicker">Community impact</p>
+        <h3 class="card__title">100+ blood donations enabled</h3>
+        <p class="card__org">NSS drive with Chandra Laxmi Hospital</p>
+      </article>
+
+      <article class="card reveal">
+        <p class="card__kicker">Community impact</p>
+        <h3 class="card__title">300+ participants served</h3>
+        <p class="card__org">Health camp with House of Clove &amp; Apollo Hospital</p>
+      </article>
+
+      <article class="card reveal">
+        <p class="card__kicker">Community impact</p>
+        <h3 class="card__title">300+ kg food distributed</h3>
+        <p class="card__org">NSS donation drive</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     RESUME
+     ============================================================ -->
+<section class="section" id="resume">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Résumé</p>
+      <h2 class="sec-title">The one-page version</h2>
+    </header>
+
+    <div class="resume reveal">
+      <a class="resume__preview" href="assets/docs/Diksha-Sharma-Resume.pdf" target="_blank" rel="noopener"
+         aria-label="Open Diksha Sharma's résumé in a new tab">
+        <img src="assets/img/resume-preview.png" alt="First page of Diksha Sharma's résumé" loading="lazy" width="900" height="1282">
+      </a>
+      <div class="resume__actions">
+        <p class="resume__note">
+          Full résumé — education, internships, projects, skills and leadership — as a two-page PDF.
+        </p>
+        <a class="btn btn--solid" href="assets/docs/Diksha-Sharma-Resume.pdf" download>Download PDF</a>
+        <a class="btn btn--ghost" href="assets/docs/Diksha-Sharma-Resume.pdf" target="_blank" rel="noopener">Open in browser</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section class="section section--alt" id="contact">
+  <div class="container">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Contact</p>
+      <h2 class="sec-title">Hiring, or want the working files?</h2>
+    </header>
+
+    <div class="contact">
+      <ul class="contact__list reveal">
+        <li>
+          <span class="contact__label">Email</span>
+          <a class="contact__value" href="mailto:diksha.shrma00@gmail.com">diksha.shrma00@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact__label">Phone</span>
+          <a class="contact__value" href="tel:+919772713937">+91 97727 13937</a>
+        </li>
+        <li>
+          <span class="contact__label">LinkedIn</span>
+          <a class="contact__value" href="https://www.linkedin.com/in/diksha-sharma-5b4116289/" target="_blank" rel="noopener">/in/diksha-sharma</a>
+        </li>
+        <li>
+          <span class="contact__label">GitHub</span>
+          <a class="contact__value" href="https://github.com/https://github.com/dikshasharma6" target="_blank" rel="noopener">@dikshasharma6</a>
+        </li>
+        <li>
+          <span class="contact__label">Location</span>
+          <span class="contact__value">Delhi NCR, India</span>
+        </li>
+      </ul>
+
+      <form class="form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="cName">Name</label>
+          <input type="text" id="cName" name="name" autocomplete="name" required aria-describedby="errName">
+          <p class="field__error" id="errName" role="alert"></p>
+        </div>
+
+        <div class="field">
+          <label for="cEmail">Email</label>
+          <input type="email" id="cEmail" name="email" autocomplete="email" required aria-describedby="errEmail">
+          <p class="field__error" id="errEmail" role="alert"></p>
+        </div>
+
+        <div class="field">
+          <label for="cSubject">Subject</label>
+          <input type="text" id="cSubject" name="subject" required aria-describedby="errSubject">
+          <p class="field__error" id="errSubject" role="alert"></p>
+        </div>
+
+        <div class="field">
+          <label for="cMessage">Message</label>
+          <textarea id="cMessage" name="message" rows="5" required aria-describedby="errMessage"></textarea>
+          <p class="field__error" id="errMessage" role="alert"></p>
+        </div>
+
+        <button class="btn btn--solid" type="submit">Send message</button>
+        <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <p class="footer__name">Diksha Sharma</p>
+      <p class="footer__tag">Business analyst &amp; campaign strategist · Delhi NCR</p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#resume">Résumé</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer__social">
+      <a href="https://www.linkedin.com/in/diksha-sharma-5b4116289/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.4 8.65 21 11 21 14.1V21h-4v-6.1c0-1.45-.03-3.32-2.02-3.32-2.03 0-2.34 1.58-2.34 3.21V21H9z"/></svg>
+      </a>
+      <a href="https://github.com/dkshaSharma" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+      </a>
+      <a href="mailto:dikshalwar@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 8L4.2 7H19.8L12 13z"/></svg>
+      </a>
+    </div>
+
+    <p class="footer__copy">© <span id="year">2026</span> Diksha Sharma</p>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="to-top" id="toTop" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5l7 7-1.4 1.4L13 8.8V20h-2V8.8l-4.6 4.6L5 12z"/></svg>
+</button>
+
+<!-- Lightbox for project galleries -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project gallery" hidden>
+  <button class="lightbox__close" id="lbClose" type="button" aria-label="Close gallery">×</button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" type="button" aria-label="Previous image">‹</button>
+  <figure class="lightbox__stage">
+    <img id="lbImage" src="" alt="">
+    <figcaption class="lightbox__caption"><span id="lbCaption"></span> <span class="lightbox__count" id="lbCount"></span></figcaption>
+  </figure>
+  <button class="lightbox__nav lightbox__nav--next" id="lbNext" type="button" aria-label="Next image">›</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
