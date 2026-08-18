@@ -406,7 +406,7 @@ h1, h2, h3 {
 .fact dd { margin: 0; font-size: .95rem; color: var(--ink-soft); }
 
 /* --------------------------------------------------------------------------
-   7. SKILLS
+   7. SKILLS  (reference layout: auto-fit collapses to 1 column naturally)
    -------------------------------------------------------------------------- */
 .skills {
   display: grid;
@@ -431,7 +431,9 @@ h1, h2, h3 {
 }
 
 /* --------------------------------------------------------------------------
-   8. PROJECTS  —  fixed 2-up grid, square cards
+   8. PROJECTS  —  desktop: fixed 2-up square grid (unchanged).
+   Mobile behaviour lives in the responsive section (§17) and stacks cards
+   one-per-row the same way Skills collapses to one column.
    -------------------------------------------------------------------------- */
 .filters {
   display: flex; flex-wrap: wrap; gap: .5rem;
@@ -917,22 +919,38 @@ a.contact__value:hover { color: var(--accent); }
   .fact { grid-template-columns: 1fr; gap: .15rem; }
   .contact__list li { grid-template-columns: 1fr; gap: .15rem; }
 
-  .projects { gap: 1rem; }
+  /* Projects: same idea as Skills — collapse to one column and let each
+     card size to its own content instead of staying pinned to a square. */
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .project {
+    aspect-ratio: auto;
+  }
+  .project__thumb {
+    flex: none;
+    aspect-ratio: 16 / 10;
+  }
+  .project__title,
+  .project__desc {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+  .project .tags--sm {
+    max-height: none;
+    overflow: visible;
+  }
 }
 
 @media (max-width: 560px) {
   body { font-size: 16px; }
   .brand__text { display: none; }
 
-  /* project cards stay 2-up and square, just tighter */
-  .projects { gap: .6rem; }
-  .project__body { padding: .7rem .75rem .8rem; }
-  .project__title { font-size: .88rem; margin-bottom: .3rem; -webkit-line-clamp: 2; }
-  .project__desc { font-size: .72rem; -webkit-line-clamp: 2; margin-bottom: .4rem; }
-  .project__meta { font-size: .58rem; margin-bottom: .25rem; }
-  .project .tags--sm { display: none; }
-  .project__links { gap: .5rem; padding-top: .4rem; }
-  .link-btn { font-size: .66rem; }
+  /* stacked project cards just need tighter spacing at this width,
+     not a different layout — content and tags stay visible */
+  .projects { gap: 1rem; }
+  .project__body { padding: 1.1rem 1.15rem 1.2rem; }
 
   .footer__inner { grid-template-columns: 1fr; }
   .lightbox { padding: .75rem; gap: .25rem; }

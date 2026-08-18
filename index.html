@@ -279,14 +279,11 @@
 
       <!-- 1 — SQL -->
       <article class="project reveal" data-category="data">
-        <div class="project__thumb project__thumb--code" aria-hidden="true">
-          <pre><code>SELECT dispatch_hour,
-       AVG(fulfilled) OVER w AS sla_roll,
-       RANK() OVER (ORDER BY cancels DESC)
-FROM   orders
-WINDOW w AS (ORDER BY dispatch_hour
-             ROWS 6 PRECEDING);</code></pre>
-        </div>
+         <button class="project__thumb project__thumb--img" type="button"
+                data-gallery="mars" aria-label="Open the MARS Cosmetics deck, 12 images">
+          <img src="assets/img/Operationkpi-preview.png" alt="Opening slide of the MARS Cosmetics College Starter Kit campaign deck" loading="lazy" width="1200" height="692">
+          <span class="project__thumb-cta">View deck · 12 pages</span>
+        </button>
         <div class="project__body">
           <p class="project__meta">SQL · MySQL — Spring 2026</p>
           <h3 class="project__title">Operations Performance &amp; KPI Analysis</h3>
@@ -309,16 +306,11 @@ WINDOW w AS (ORDER BY dispatch_hour
 
       <!-- 2 — Excel -->
       <article class="project reveal" data-category="data">
-        <div class="project__thumb project__thumb--sheet" aria-hidden="true">
-          <div class="sheet">
-            <div class="sheet__row sheet__row--head"><span>Month</span><span>Category</span><span>Revenue</span><span>Δ</span></div>
-            <div class="sheet__row"><span>Jan</span><span>Apparel</span><span>₹4.2L</span><span class="up">+8%</span></div>
-            <div class="sheet__row"><span>Feb</span><span>Apparel</span><span>₹3.6L</span><span class="down">−14%</span></div>
-            <div class="sheet__row"><span>Mar</span><span>Home</span><span>₹5.1L</span><span class="up">+19%</span></div>
-            <div class="sheet__row"><span>Apr</span><span>Home</span><span>₹4.8L</span><span class="down">−6%</span></div>
-          </div>
-          <div class="sheet__bars"><i style="--h:52%"></i><i style="--h:38%"></i><i style="--h:74%"></i><i style="--h:61%"></i><i style="--h:88%"></i><i style="--h:45%"></i></div>
-        </div>
+        <button class="project__thumb project__thumb--img" type="button"
+                data-gallery="haldiram" aria-label="Open the Haldiram's Thanda Funda working notes, 5 pages">
+          <img src="assets/img/salesperf-preview.png" alt="Handwritten campaign notes for the Haldiram's Thanda Funda concept" loading="lazy" width="1000" height="1424">
+          <span class="project__thumb-cta">View notes · 5 pages</span>
+        </button>
         <div class="project__body">
           <p class="project__meta">MS Excel — Spring 2026</p>
           <h3 class="project__title">Sales Performance &amp; Revenue Optimization Dashboard</h3>
@@ -343,7 +335,7 @@ WINDOW w AS (ORDER BY dispatch_hour
       <article class="project reveal" data-category="marketing">
         <button class="project__thumb project__thumb--img" type="button"
                 data-gallery="mars" aria-label="Open the MARS Cosmetics deck, 12 images">
-          <img src="assets/img/mars/slide-01.jpg" alt="Opening slide of the MARS Cosmetics College Starter Kit campaign deck" loading="lazy" width="1200" height="692">
+          <img src="assets/img/mars/mars-preview.png" alt="Opening slide of the MARS Cosmetics College Starter Kit campaign deck" loading="lazy" width="1200" height="692">
           <span class="project__thumb-cta">View deck · 12 pages</span>
         </button>
         <div class="project__body">
@@ -370,7 +362,7 @@ WINDOW w AS (ORDER BY dispatch_hour
       <article class="project reveal" data-category="marketing">
         <button class="project__thumb project__thumb--img" type="button"
                 data-gallery="haldiram" aria-label="Open the Haldiram's Thanda Funda working notes, 5 pages">
-          <img src="assets/img/haldiram/page-01.jpg" alt="Handwritten campaign notes for the Haldiram's Thanda Funda concept" loading="lazy" width="1000" height="1424">
+          <img src="assets/img/haldiram/haldiram-preview.png" alt="Handwritten campaign notes for the Haldiram's Thanda Funda concept" loading="lazy" width="1000" height="1424">
           <span class="project__thumb-cta">View notes · 5 pages</span>
         </button>
         <div class="project__body">
@@ -637,7 +629,7 @@ WINDOW w AS (ORDER BY dispatch_hour
     <header class="sec-head reveal">
       <p class="eyebrow">Contact</p>
       <h2 class="sec-title">Hiring, or want the working files?</h2>
-    </header>
+    </header>w
 
     <div class="contact">
       <ul class="contact__list reveal">
