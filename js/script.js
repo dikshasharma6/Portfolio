@@ -202,6 +202,10 @@
         { src: 'assets/img/mars/slide-08.jpg', alt: 'Expected results slide: 35 percent average student savings' },
         { src: 'assets/img/mars/slide-09.jpg', alt: 'Business impact slide: why this strategy wins' },
         { src: 'assets/img/mars/slide-10.jpg', alt: 'Closing slide' },
+        { src: 'assets/img/mars/slide-11.jpg', alt: 'Closing slide' },
+        { src: 'assets/img/mars/slide-12.jpg', alt: 'Closing slide' },
+        { src: 'assets/img/mars/slide-13.jpg', alt: 'Closing slide' },
+        { src: 'assets/img/mars/slide-14.jpg', alt: 'Closing slide' },
         { src: 'assets/img/mars/ideation-01.jpg', alt: 'Handwritten ideation: target audience, problems and product strategy' },
         { src: 'assets/img/mars/ideation-02.jpg', alt: 'Handwritten ideation: campaign name development' }
       ]
@@ -209,6 +213,22 @@
     haldiram: {
       title: 'Haldiram\u2019s — Thanda Funda (working notes)',
       images: [
+        { src: 'assets/img/haldiram/slide-01.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-01.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-02.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-03.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-04.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-05.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-06.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-07.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-08.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-09.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-10.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-11.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-12.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-13.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-14.jpg', alt: 'Notes: campaign brief, name and installation concept' },
+        { src: 'assets/img/haldiram/slide-15.jpg', alt: 'Notes: campaign brief, name and installation concept' },
         { src: 'assets/img/haldiram/page-01.jpg', alt: 'Notes: campaign brief, name and installation concept' },
         { src: 'assets/img/haldiram/page-02.jpg', alt: 'Notes: consumer insight, target audience and reel concept' },
         { src: 'assets/img/haldiram/page-03.jpg', alt: 'Notes: reel concepts and Instagram captions' },

@@ -411,7 +411,7 @@ h1, h2, h3 {
 .skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap: 1px;
+  gap: 3px;
   background: var(--line);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -424,7 +424,7 @@ h1, h2, h3 {
 }
 .skill-card:hover { background: var(--surface-2); }
 .skill-card__title {
-  font-size: 1.02rem; font-weight: 600; letter-spacing: -.01em;
+  font-size: 1.5rem; font-weight: 600; letter-spacing: -.01em;
   margin-bottom: 1rem;
   padding-bottom: .7rem;
   border-bottom: 1px solid var(--line);
